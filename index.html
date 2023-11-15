@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3School Online Web Tutorial</title>
+    <link rel="icon" href="./image/w3schoolheaderimage.png">
+    <link rel="stylesheet" href="./CSS/style.css ">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="stylesheet" href="./CSS/temp.css">
+    <link rel="stylesheet" href="./CSS/temp2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@800&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@600&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="head">
+            <div class="header_left">
+                <a href="#">
+                    <div class="w3school_logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1088px-W3Schools_logo.svg.png"
+                            alt="">
+                    </div>
+                </a>
+
+
+
+                <div class="menu_button" id="menubar">
+                    Menu
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+
+                <div class="menu_button" id="menu_tutorial">
+                    Tutorials
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="menu_button" id="menu_exercise">
+                    Exercises
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="menu_button" id="menu_certificate">
+                    Certificates
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="menu_button" id="menu_service">
+                    Services
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+
+                <!-- search box -->
+                <div class="outerbox">
+                    <div class="box">
+                        <div id="s_bar">
+                            <input type="text" placeholder="Search..." name="" id="search_bar" autocomplete="off">
+                        </div>
+                        <div id="s_btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="toggle_darkandlight">
+                    <i class="fa-solid fa-circle-half-stroke fa-rotate-180"></i>
+                </div>
+
+
+            </div>
+
+
+            <!-- header right section  -->
+
+            <div class="header_right">
+
+                <a href="#jobs" class="center job" title="Find Your Next Job or Hire with W3Schools Pathfinder">
+                    <img src="./image/jobs.png" alt="">
+                    Jobs
+                </a>
+
+                <a href="#spaces" class="center space" title="Get Your Own Website With W3Schools Spaces">
+                    <img src="./image/spaces.png" alt="">
+                    Spaces
+                </a>
+
+                <a href="#Get_Certificates" class="center certificate" title="W3Schools Certificates">
+                    <img src="./image/certificates.png" alt="" class="space_mobile">
+                    Get Certified
+                </a>
+
+
+                <!-- sign_up and log_in -->
+                <a href="#Sign up" class="center sign_up" title="Sign Up to Improve Your Learning Experience">Sign Up
+                </a>
+
+                <a href="#Log in" class="center log_in" title="Login to your account">Log in
+                </a>
+
+
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+    <!-- mobile menubar  -->
+    <div class="mobile_menu">
+        <div id="cancel">
+            <div id="cancel_in">
+                <div id="cancel_logo">
+                    <i class="fa-sharp fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class=" mobile" id="menu_tutorial_mobile">
+            <div class="menu_button_mobile">
+                <span>Tutorials</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+        <div class=" mobile" id="menu_exercise_mobile">
+            <div class="menu_button_mobile">
+                <span>Exercises</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+        <div class=" mobile" id="menu_certificate_mobile">
+            <div class="menu_button_mobile">
+                <span>Certificates</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+        <div class=" mobile" id="menu_service_mobile">
+            <div class="menu_button_mobile">
+                <span>Services</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+
+        <div class="space_mobile mobile">
+            <a href="#spaces" class="center space_mobile menu_button_mobile"
+                title="Get Your Own Website With W3Schools Spaces">
+                <span>Spaces</span>
+                <div id="space_mobile_img1"><img src="./image/jobs_white.png" alt=""></div>
+            </a>
+        </div>
+        <div class="certificate_mobile mobile">
+            <a href="#Get_Certificates" class="center certificate_mobile menu_button_mobile"
+                title="W3Schools Certificates">
+                <span>Get Certified</span>
+                <i id="getcertified_mobile" class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+        <div class="job_mobile mobile">
+            <a href="#jobs" class="center job_mobile menu_button_mobile"
+                title="Find Your Next Job or Hire with W3Schools Pathfinder">
+                <span>Jobs</span>
+                <i id="job_mobile" class="fa-solid fa-briefcase"></i>
+            </a>
+        </div>
+
+
+
+
+        <div class="last">
+            <div class="fb media_phone"><i class="fa-brands fa-square-facebook"></i></div>
+            <div class="insta media_phone"><i class="fa-brands fa-instagram"></i></div>
+            <div class="dis media_phone"><i class="fa-brands fa-discord"></i></div>
+            <div class="li media_phone"><i class="fa-brands fa-linkedin"></i></div>
+
+        </div>
+
+    </div>
+
+    <div class="intro">
+
+        <!-- subnavbar starts  -->
+        <div class="subnavbar">
+            <div class="leftarrow">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div id="options">
+                <a class="option" title="HTML Tutorial" href="#HTML">HTML</a>
+                <a class="option" title="Css Tutorial" href="#CSS">CSS</a>
+                <a class="option" title="Javascript Tutorial" href="#JAVASCRIPT">JAVASCRIPT</a>
+                <a class="option" title="SQL Tutorial" href="#SQL">SQL</a>
+                <a class="option" title="Python Tutorial" href="#PYTHON">PYTHON</a>
+                <a class="option" title="Java Tutorial" href="#JAVA">JAVA</a>
+                <a class="option" title="PHP Tutorial" href="#PHP">PHP</a>
+                <a class="option how_to" title="How to" href="#HOW TO">HOW TO</a>
+                <a class="option" title="W3.CSS Tutorial" href="#W3.CSS">W3.CSS</a>
+                <a class="option" title="C Tutorial" href="C">C</a>
+                <a class="option" title="C++ Tutorial" href="C++">C++</a>
+                <a class="option" title="C# Tutorial" href="C#">C#</a>
+                <a class="option" title="Bootstrap Tutorial" href="BOOTSTRAP">BOOTSTRAP</a>
+                <a class="option" title="React Tutorial" href="#REACT">REACT</a>
+                <a class="option" title="MySQL Tutorial" href="#MYSQL">MYSQL</a>
+                <a class="option" title="JQuery Tutorial" href="#JQUERY">JQUERY</a>
+                <a class="option" title="Excel Tutorial" href="#EXCEL">EXCEL</a>
+                <a class="option" title="XML Tutorial" href="#XML">XML</a>
+                <a class="option" title="DJango Tutorial" href="#DJANGO">DJANGO</a>
+                <a class="option" title="NodeJS Tutorial" href="#NODEJS">NODEJS</a>
+                <a class="option" title="R Tutorial" href="#R">R</a>
+                <a class="option" title="TypeScript Tutorial" href="#TYPESCRIPT">TYPESCRIPT</a>
+                <a class="option" title="Angular Tutorial" href="#ANGULAR">ANGULAR</a>
+                <a class="option" title="Git Tutorial" href="#GIT">GIT</a>
+                <a class="option" title="PostgreSQL Tutorial" href="#POSTGRESQL">POSTGRESQL</a>
+                <a class="option" title="MongoDB Tutorial" href="#MONGODB">MONGODB</a>
+                <a class="option" title="ASP Tutorial" href="#ASP">ASP</a>
+                <a class="option" title="AWS Tutorial" href="#AWS">AWS</a>
+                <a class="option" title="AI Tutorial" href="#AI">AI</a>
+                <a class="option" title="GO Tutorial" href="#GO">GO</a>
+                <a class="option" title="Kotlin Tutorial" href="#KOTIN">KOTIN</a>
+                <a class="option" title="Sass Tutorial" href="#SASS">SASS</a>
+                <a class="option" title="Vue.js Tutorial" href="#VUE">VUE</a>
+                <a class="option how_to" title=" Tutorial" href="#GEN AI">GEN AI</a>
+                <a class="option" title="Gen A.I. Tutorial" href="#CYBERSECURITY">CYBERSECURITY</a>
+                <a class="option data_science" title="Data Science Tutorial" href="#DATA SCIENCE">DATA SCIENCE</a>
+            </div>
+            <div class="rightarrow">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+        <!-- SUBNAVBAR ENDS HERE  -->
+
+
+
+        <div id="intro_main_box">
+            <div id="intro_box">
+                <h1 id="heading_one">Learn to Code</h1>
+                <h2 id="heading_two">With the world's largest web devoloper site.</h2>
+                <div id="intro_search_box">
+
+                    <input type="text" placeholder="Search our tutorials, e.g. HTML">
+
+                    <button id="intro_search_btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <a href="">Not Sure Where To Begin?</a>
+            </div>
+
+            <div id="astronaut">
+                <img src="./image/astronout_in_space.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="custom-shape-divider-bottom-1698351343">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+    </div>
+
+
+    <!-- HTML INTRODUCTION SECTION  -->
+    <div class="introduction" id="html">
+        <div class="introduction_box">
+            <div class="introduction_container_learning" id="learning">
+                <h1 class="introduction_heading1">HTML</h1>
+                <h4 class="introduction_heading2">The language for building web pages</h4>
+                <a href="" class="introduction_learn ">Learn HTML</a>
+                <a href="" class="introduction_tuotrial">Video Tutorial</a>
+                <a href="" class="introduction_reference">HTML Reference</a>
+                <a href="" class="introduction_getcertified">Get Certified</a>
+            </div>
+
+            <div class="intro_container_outerexample">
+                <div class="introduction_container_example">
+                    <h2 class="introduction_example_heading">HTML Example:</h2>
+                    <div class="introduction_example">
+                        <!-- first line  -->
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">!DOCTYPE</span>
+                            <span class="color_red">html</span><span class="color_blue">&#62</span>
+                        </p>
+
+                        <!-- second line -->
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">html</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+
+                        <!-- third line -->
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_red">head</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+
+                        <!-- 4th line -->
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">title</span><span
+                                class="color_blue">&#62</span><span>HTML Tutorial</span><span
+                                class="color_blue">&#60</span><span class="color_brown">title</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+
+                        <!-- 5th line -->
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_red">/head</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">body</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+
+                        <br>
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">h1</span><span
+                                class="color_blue">&#62</span><span>This is a heading</span><span
+                                class="color_blue">&#60</span><span class="color_brown">/h1</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">h1</span><span
+                                class="color_blue">&#62</span><span>This is a paragraph</span><span
+                                class="color_blue">&#60</span><span class="color_brown">/h1</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+                        <br>
+
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">/body</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">/html</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+                    </div>
+                    <div class="introduction_example_tiy">
+                        <a href="">Try it Yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CSS INTRODUCTION SECTION  -->
+    <div class="introduction" id="css">
+        <div class="introduction_box">
+            <div class="introduction_container_learning" id="learning">
+                <h1 class="introduction_heading1">CSS</h1>
+                <h4 class="introduction_heading2">The language for styling web pages</h4>
+                <a href="" class="introduction_learn ">Learn CSS</a>
+                <a href="" class="introduction_reference">CSS Reference</a>
+                <a href="" class="introduction_getcertified">Get Certified</a>
+            </div>
+
+            <div class="intro_container_outerexample">
+                <div class="introduction_container_example">
+                    <h2 class="introduction_example_heading">CSS Example:</h2>
+                    <div class="introduction_example">
+                        <!-- 1st line -->
+                        <p>
+                            <span class="color_brown">body </span>&#123
+                        </p>
+
+                        <!-- 2nd line  -->
+                        <p>
+                            <span class="color_red">&nbsp&nbsp&nbsp&nbspbackground-color </span>
+                            :
+                            <span class="color_blue">lightblue</span>
+                            ;
+                        </p>
+
+                        <!-- 3rd line  -->
+                        <p>
+                            <span>&#125</span>
+                        </p>
+                        <br>
+                        <!-- 4th line -->
+                        <p>
+                            <span class="color_brown">h1</span>
+                            &#123
+                        </p>
+
+                        <!-- 5th line -->
+                        <p>
+                            <span class="color_red">&nbsp&nbsp&nbsp&nbspcolor </span>
+                            :
+                            <span class="color_blue">&nbspwhite</span>
+                            ;
+                        </p>
+                        <p>
+                            <span class="color_red">&nbsp&nbsp&nbsp&nbsptext-align </span>
+                            :
+                            <span class="color_blue">&nbspcenter</span>
+                            ;
+                        </p>
+                        <p>
+                            &#125
+                        </p>
+                        <br>
+                        <p>
+                            <span class="color_brown">p</span>
+                            &#123
+                        </p>
+
+                        <p>
+                            <span class="color_red">&nbsp&nbsp&nbsp&nbspfont-family </span>
+                            :
+                            <span class="color_blue">&nbspverdana</span>
+                            ;
+                        </p>
+
+
+
+
+
+                    </div>
+                    <div class="introduction_example_tiy">
+                        <a href="">Try it Yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JAVASCRIPT INTRODUCTION SECTION  -->
+
+    <div class="introduction" id="js">
+        <div class="introduction_box">
+            <div class="introduction_container_learning" id="learning">
+                <h1 class="introduction_heading1" id="introduction_heading1_js">JavaScript</h1>
+                <h4 class="introduction_heading2" id="introduction_heading2_js">The language for programming web pages
+                </h4>
+                <a href="" class="introduction_learn ">Learn JavaScript</a>
+                <a href="" class="introduction_reference" id="introduction_reference_js">JavaScript Reference</a>
+                <a href="" class="introduction_getcertified">Get Certified</a>
+            </div>
+
+            <div class="intro_container_outerexample">
+                <div class="introduction_container_example">
+                    <h2 class="introduction_example_heading">JavaScript Example:</h2>
+                    <div class="introduction_example">
+                        <!-- 1st line -->
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">button&nbsp</span><span
+                                class="color_red">onclick</span><span
+                                class="color_blue">="myFunction&#40&nbsp&#41&nbsp"&#62</span>Click
+                        </p>
+                        <p>
+                            Me! <span class="color_blue">&#60</span><span class="color_brown">/button</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+                        <br>
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">script</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+
+                        <p>
+                            <span class="color_blue">function&nbsp</span>myFunction&#40&nbsp&#41&nbsp&#123
+                        </p>
+
+                        <p>
+                            &nbsp&nbsp&nbsp&nbsp<span class="color_blue">let &nbsp</span> x &nbsp=&nbsp
+                            document.getElementById &#40 <span class="color_brown"> "demo" </span>&#41 ;
+                        </p>
+                        <p>
+                            &nbsp&nbsp&nbsp&nbsp s.style.fontsize&nbsp=&nbsp <span class="color_brown">"25px"</span> ;
+                        </p>
+                        <p>
+                            &nbsp&nbsp&nbsp&nbsp s.style.color&nbsp=&nbsp <span class="color_brown">"red"</span> ;
+                        </p>
+
+                        <p>
+                            &#125
+                        </p>
+
+                        <p>
+                            <span class="color_blue">&#60</span><span class="color_brown">/script</span><span
+                                class="color_blue">&#62</span>
+                        </p>
+                    </div>
+                    <div class="introduction_example_tiy">
+                        <a href="">Try it Yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- PYTHON INTRODUCTION SECTION  -->
+    <div class="introduction" id="python">
+        <div class="introduction_box">
+            <div class="introduction_container_learning" id="learning">
+                <h1 class="introduction_heading1">Python</h1>
+                <h4 class="introduction_heading2">A popular programming language</h4>
+                <a href="" class="introduction_learn ">Learn Python</a>
+                <a href="" class="introduction_reference">Python Reference</a>
+                <a href="" class="introduction_getcertified">Get Certified</a>
+            </div>
+
+            <div class="intro_container_outerexample">
+                <div class="introduction_container_example">
+                    <h2 class="introduction_example_heading">Python Example:</h2>
+                    <div class="introduction_example" id="introduction_example_python">
+                        <p>
+                            <span class="color_blue">if &nbsp</span><span class="color_red">5</span>&nbsp &#62 &nbsp
+                            <span class="color_red">2</span> :
+                        </p>
+                        <p>
+                            &nbsp&nbsp&nbsp&nbsp print &#40 <span class="color_brown">Five is greater than two! "</span>
+                            &#41
+                        </p>
+
+
+                    </div>
+                    <div class="introduction_example_tiy">
+                        <a href="">Try it Yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SQL INTRODUCTION SECTION  -->
+
+    <div class="introduction" id="sql">
+        <div class="introduction_box">
+            <div class="introduction_container_learning" id="learning">
+                <h1 class="introduction_heading1">SQL</h1>
+                <h4 class="introduction_heading2">A language for accessing database</h4>
+                <a href="" class="introduction_learn ">Learn SQL</a>
+                <a href="" class="introduction_reference">SQL Reference</a>
+                <a href="" class="introduction_getcertified">Get Certified</a>
+            </div>
+
+            <div class="intro_container_outerexample">
+                <div class="introduction_container_example">
+                    <h2 class="introduction_example_heading">SQL Example:</h2>
+                    <div class="introduction_example" id="introduction_example_python">
+                        <p>
+                            <span class="color_blue">SELECT &nbsp</span><span class="color_blue">&nbsp FROM</span>
+                            Customers
+                        </p>
+                        <p>
+                            <span class="color_blue">WHERE</span> Country=<span class="color_brown">'Mexico'</span> ;
+                        </p>
+
+
+                    </div>
+                    <div class="introduction_example_tiy">
+                        <a href="">Try it Yourself</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- INTRODUCTION OTHER BIG SECTION  -->
+
+    <div class="intro_other_big_maincontainer">
+        <div class="intro_other_big_subcontainer">
+
+            <!-- for PHP and jQuery  -->
+            <div class="intro_other_big">
+                <div class="intro_other_big_content" id="intro_other_big_content_php">
+                    <h2 class="intro_other_big_heading1">PHP</h2>
+                    <h2 class="intro_other_big_heading2">A web server programming language</h2>
+                    <div class="intro_other_big_learn_box">
+                        <a href="" class="intro_other_big_learn">Learn PHP</a>
+                    </div>
+                </div>
+            </div>
+            <div class="intro_other_big">
+                <div class="intro_other_big_content" id="intro_other_big_content_jquery">
+                    <h2 class="intro_other_big_heading1">jQuery</h2>
+                    <h2 class="intro_other_big_heading2">A JS library for devoloping web pages</h2>
+                    <div class="intro_other_big_learn_box">
+                        <a href="" class="intro_other_big_learn">Learn jQuery</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <!-- for Java and C++ -->
+        <div class="intro_other_big_subcontainer">
+            <div class="intro_other_big">
+                <div class="intro_other_big_content" id="intro_other_big_content_java">
+                    <h2 class="intro_other_big_heading1">Java</h2>
+                    <h2 class="intro_other_big_heading2">A programming language</h2>
+                    <div class="intro_other_big_learn_box">
+                        <a href="" class="intro_other_big_learn">Learn Java</a>
+                    </div>
+                </div>
+            </div>
+            <div class="intro_other_big">
+                <div class="intro_other_big_content" id="intro_other_big_content_cpp">
+                    <h2 class="intro_other_big_heading1">C++</h2>
+                    <h2 class="intro_other_big_heading2">A programming language</h2>
+                    <div class="intro_other_big_learn_box">
+                        <a href="" class="intro_other_big_learn">Learn C++</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- for W3.CSS and Bootstrap -->
+        <div class="intro_other_big_subcontainer">
+            <div class="intro_other_big">
+                <div class="intro_other_big_content" id="intro_other_big_content_w3css">
+                    <h2 class="intro_other_big_heading1">W3.CSS</h2>
+                    <h2 class="intro_other_big_heading2">A CSS framework for faster and better responsive web pages</h2>
+                    <div class="intro_other_big_learn_box">
+                        <a href="" class="intro_other_big_learn">Learn W3.CSS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="intro_other_big">
+                <div class="intro_other_big_content" id="intro_other_big_content_bootstrap">
+                    <h2 class="intro_other_big_heading1">Bootstrap</h2>
+                    <h2 class="intro_other_big_heading2">A CSS framework for designing better web pages</h2>
+                    <div class="intro_other_big_learn_box">
+                        <a href="" class="intro_other_big_learn">Learn Bootstrap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="intro_other_medium_maincontainer">
+
+
+        <div class="intro_other_medium_subcontainer">
+
+            <div class="intro_other_medium_content">
+                <a title="C Tutorial" href="C tutorial" class="intro_other_medium background_color_pink">
+                    <div class="intro_other_heading">
+                        <h3>C</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_other_medium_content">
+                <a title="C# Tutorial" href="C# tutorial" class="intro_other_medium background_color_yellow">
+                    <div class="intro_other_heading">
+                        <h3>C#</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+        <!-- SMALL SMALL CONTAINER INTRODUCTION SECTION  -->
+
+
+        <div class="intro_small_box">
+
+            <!-- FIRST LINE -->
+            <div class="intro_small_container ">
+                <a title="R Tutorial" href="#R" class="intro_small_subcontainer background_color_fadewhite">
+                    <div class="intro_small_heading">
+                        <h2>R</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Kotlin Tutorial" href="#Kotlin" class="intro_small_subcontainer background_color_fadeblue">
+                    <div class="intro_small_heading">
+                        <h2>Kotlin</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Node.js Tutorial" href="#Nodejs" class="intro_small_subcontainer background_color_blue">
+                    <div class="intro_small_heading">
+                        <h2>Node.js</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="React Tutorial" href="#React" class="intro_small_subcontainer background_color_pink">
+                    <div class="intro_small_heading">
+                        <h2>React</h2>
+                    </div>
+                </a>
+            </div>
+
+            <!-- SECOND LINE  -->
+            <div class="intro_small_container">
+                <a title="JSON Tutorial" href="#JSON" class="intro_small_subcontainer background_color_yellow">
+                    <div class="intro_small_heading">
+                        <h2>JSON</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Vue Tutorial" href="#Vue" class="intro_small_subcontainer background_color_fadewhite">
+                    <div class="intro_small_heading">
+                        <h2>Vue</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="MySQL Tutorial" href="#MySQL" class="intro_small_subcontainer background_color_fadeblue">
+                    <div class="intro_small_heading">
+                        <h2>MySQL</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="XML Tutorial" href="#XML" class="intro_small_subcontainer background_color_blue">
+                    <div class="intro_small_heading">
+                        <h2>XML</h2>
+                    </div>
+                </a>
+            </div>
+            <!-- THIRD LINE  -->
+            <div class="intro_small_container">
+                <a title="Sass Tutorial" href="#Sass" class="intro_small_subcontainer background_color_pink">
+                    <div class="intro_small_heading">
+                        <h2>Sass</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Icons Tutorial" href="#Icons" class="intro_small_subcontainer background_color_yellow">
+                    <div class="intro_small_heading">
+                        <h2>Icons</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="RWD Tutorial" href="#RWD" class="intro_small_subcontainer background_color_fadewhite">
+                    <div class="intro_small_heading">
+                        <h2>RWD</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Graphics Tutorial" href="#Graphics"
+                    class="intro_small_subcontainer background_color_fadeblue">
+                    <div class="intro_small_heading">
+                        <h2>Graphics</h2>
+                    </div>
+                </a>
+            </div>
+            <!-- FOURTH LINE  -->
+            <div class="intro_small_container">
+                <a title="SVG Tutorial" href="#SVG" class="intro_small_subcontainer background_color_blue">
+                    <div class="intro_small_heading">
+                        <h2>SVG</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Canvas Tutorial" href="#Canvas" class="intro_small_subcontainer background_color_pink">
+                    <div class="intro_small_heading">
+                        <h2>Canvas</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Raspberry Pi Tutorial" href="#Raspberry Pi"
+                    class="intro_small_subcontainer background_color_yellow">
+                    <div class="intro_small_heading">
+                        <h2>Raspberry Pi</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Cyber Security Tutorial" href="#Cyber Security"
+                    class="intro_small_subcontainer background_color_fadewhite">
+                    <div class="intro_small_heading">
+                        <h2>Cyber Security</h2>
+                    </div>
+                </a>
+            </div>
+            <!-- FIFTH LINE  -->
+            <div class="intro_small_container">
+                <a title="Colors Tutorial" href="#Colors" class="intro_small_subcontainer background_color_fadeblue">
+                    <div class="intro_small_heading">
+                        <h2>Colors</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Git Tutorial" href="#Git" class="intro_small_subcontainer background_color_blue">
+                    <div class="intro_small_heading">
+                        <h2>Git</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Matplotlib Tutorial" href="#Matplotlib"
+                    class="intro_small_subcontainer background_color_pink">
+                    <div class="intro_small_heading">
+                        <h2>Matplotlib</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="NumPy Tutorial" href="#NumPy" class="intro_small_subcontainer background_color_yellow">
+                    <div class="intro_small_heading">
+                        <h2>NumPy</h2>
+                    </div>
+                </a>
+            </div>
+            <!-- SIXTH LINE  -->
+            <div class="intro_small_container">
+                <a title="Pandas Tutorial" href="#Pandas" class="intro_small_subcontainer background_color_fadewhite">
+                    <div class="intro_small_heading">
+                        <h2>Pandas</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="SciPy Tutorial" href="#SciPy" class="intro_small_subcontainer background_color_fadeblue">
+                    <div class="intro_small_heading">
+                        <h2>SciPy</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="ASP Tutorial" href="#ASP" class="intro_small_subcontainer background_color_blue">
+                    <div class="intro_small_heading">
+                        <h2>ASP</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="AngularJS Tutorial" href="#AngularJS" class="intro_small_subcontainer background_color_pink">
+                    <div class="intro_small_heading">
+                        <h2>AngularJS</h2>
+                    </div>
+                </a>
+            </div>
+            <!-- SEVENTH LINE  -->
+            <div class="intro_small_container">
+                <a title="AppML Tutorial" href="#AppML" class="intro_small_subcontainer background_color_yellow">
+                    <div class="intro_small_heading">
+                        <h2>AppML</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Go Tutorial" href="#Go" class="intro_small_subcontainer background_color_fadewhite">
+                    <div class="intro_small_heading">
+                        <h2>Go</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="TypeScript Tutorial" href="#TypeScript"
+                    class="intro_small_subcontainer background_color_fadeblue">
+                    <div class="intro_small_heading">
+                        <h2>TypeScript</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Django Tutorial" href="#Django" class="intro_small_subcontainer background_color_blue">
+                    <div class="intro_small_heading">
+                        <h2>Django</h2>
+                    </div>
+                </a>
+            </div>
+            <!-- EITHTH LINE  -->
+            <div class="intro_small_container">
+                <a title="MongoDB Tutorial" href="#MongoDB" class="intro_small_subcontainer background_color_pink">
+                    <div class="intro_small_heading">
+                        <h2>MongoDB</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Statistics Tutorial" href="#Statistics"
+                    class="intro_small_subcontainer background_color_yellow">
+                    <div class="intro_small_heading">
+                        <h2>Statistics</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Data Science Tutorial" href="#Data Science"
+                    class="intro_small_subcontainer background_color_fadewhite">
+                    <div class="intro_small_heading">
+                        <h2>Data Science</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Typing Speed Tutorial" href="#Typing Speed"
+                    class="intro_small_subcontainer background_color_fadeblue">
+                    <div class="intro_small_heading">
+                        <h2>Typing Speed</h2>
+                    </div>
+                </a>
+            </div>
+            <!-- NINTH LINE  -->
+            <div class="intro_small_container">
+                <a title="HowTo Tutorial" href="#HowTo" class="intro_small_subcontainer background_color_blue">
+                    <div class="intro_small_heading">
+                        <h2>HowTo</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Code Game Tutorial" href="#Code Game" class="intro_small_subcontainer background_color_pink">
+                    <div class="intro_small_heading">
+                        <h2>Code Game</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="Spaces Tutorial" href="#Spaces" class="intro_small_subcontainer background_color_yellow">
+                    <div class="intro_small_heading">
+                        <h2>Spaces</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_small_container">
+                <a title="PostgreSQL tutorial" href="#PostgreSQL"
+                    class="intro_small_subcontainer background_color_fadewhite">
+                    <div class="intro_small_heading">
+                        <h2>PostgreSQL</h2>
+                    </div>
+                </a>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="intro_other_medium_subcontainer">
+
+            <div class="intro_other_medium_content">
+                <a title="Excel Tutorial" href="Excel tutorial" class="intro_other_medium background_color_blue"
+                    id="intro_other_medium_c">
+                    <div class="intro_other_heading">
+                        <h3>Excel</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_other_medium_content">
+                <a title="Google Sheet Tutorial" href="Google Sheet tutorial"
+                    class="intro_other_medium background_color_yellow" id="intro_other_medium_cpp">
+                    <div class="intro_other_heading">
+                        <h3>Google Sheet</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="intro_other_medium_subcontainer">
+
+            <div class="intro_other_medium_content">
+                <a title="Machine Learning Tutorial" href="Machine Learning tutorial"
+                    class="intro_other_medium background_color_pink" id="intro_other_medium_Machine Learning">
+                    <div class="intro_other_heading">
+                        <h3>Machine Learning</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="intro_other_medium_content">
+                <a title="Artificial Intelligency Tutorial" href="Artificial Intelligency tutorial"
+                    class="intro_other_medium background_color_fadewhite"
+                    id="intro_other_medium_Artificial Intelligency">
+                    <div class="intro_other_heading">
+                        <h3>Artificial Intelligency</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- small boxes are completed -->
+
+
+
+        <!-- code editer section   -->
+        <div class="codeeditor_maincontainer">
+            <div class="codeeditor_subcontainer">
+                <h1>Code Editor</h1>
+                <h4>With our online code editor, you can edit code and view the result in your browser</h4>
+                <div class="codeeditor_examplebox">
+                    <div class="codeeditor_navbar">
+                        <div class="codeeditor_examplebox_upnavbar">
+                            <div class="codeeditor_examplebox_upnavbar_color">
+                                <span class="codeeditor_examplebox_upnavbar_redcolor"></span>
+                                <span class="codeeditor_examplebox_upnavbar_yellowcolor"></span>
+                                <span class="codeeditor_examplebox_upnavbar_greencolor"></span>
+                            </div>
+                            <div class="codeeditor_examplebox_upnavbar_info">
+                                <div class="codeeditor_examplebox_upnavbar_infobox">
+                                    <p>
+                                        www.w3schools.com/tryit/
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="codeeditor_examplebox_downnavbar">
+                            <div class="codeeditor_examplebox_downnavbar_frontend">Frontend</div>
+                            <div class="codeeditor_examplebox_downnavbar_backend">Backend</div>
+                        </div>
+                    </div>
+                    <img src="https://www.w3schools.com/codeeditor.gif" alt="">
+                </div>
+                <div class="codeeditor_tryfrontend">
+                    <a href="">Try Frontend Editor (HTML/CSS/JS)</a>
+                </div>
+                <div class="codeeditor_trybackend">
+                    <a href="">Try Backend Editor (Python/PHP/Java/C..)</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- W3SCHOOLS SPACESS  -->
+
+        <div class="w4school_spaces_maincontainer">
+            <div class="w3school_spaces_subcontainer">
+                <h1>W3Schools Spaces</h1>
+                <h3>If you want to create your own website, check out <a href=""> W3Schools Spaces</a> .</h3>
+                <h3>It is free to use, and does not require any setup:</h3>
+
+                <img class="w3school_spaces_subcontainer_img1" src="https://www.w3schools.com/spaces/dynamicspaces.gif"
+                    alt="">
+                <img class="w3school_spaces_subcontainer_img2" src="https://www.w3schools.com/how-spaces-works3.png"
+                    alt="">
+
+                <div class="w3school_spaces_subcontainer_learnmore">
+                    <a href="">Learn More</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- My learning section  -->
+    <div class="mylearning_maincontainer">
+        <div class="mylearning_subcontainer">
+            <h1>My Learning</h1>
+            <h3>Track your progress with our free "My Learning" program.</h3>
+            <h4>Log in to your account, and start earning points!</h4>
+            <img src="https://www.w3schools.com/myl-green-off.png" alt="">
+            <div class="mylearning_subcontainer_learnmore">
+                <a href="">Sign Up for Free</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- BECOME A PRO USER in short bp-user -->
+
+    <div class="bpuser_maincontainer">
+        <h1>Become a PRO User</h1>
+        <h3>And unlock powerful features:</h3>
+        <ul>
+            <li>
+                <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg" alt="">
+                Browse W3Schools <strong>without ads</strong>
+            </li>
+            <li>
+                <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg" alt="">
+                Website hosting (including <a href="">Spaces</a> PRO)
+            </li>
+            <li>
+                <img src="https://www.w3schools.com/spaces/files/check3.db67d31e.svg" alt="">
+                Access to our <a href="">HTML Video Tutorial</a>
+            </li>
+        </ul>
+        <div class="w3school_spaces_subcontainer_learnmore">
+            <a href="">Learn More</a>
+        </div>
+    </div>
+
+
+    <!-- color picker -->
+
+    <div class="color_picker_maincontainer">
+        <h1>Color Picker</h1>
+        <h4>W3Schools' famous color picker:</h4>
+        <div class="color_picker_img">
+            <img src="./image/color_picker.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- Code game section  -->
+
+    <div class="code_game_maincontainer">
+        <h1>Code Game</h1>
+        <h3>Help the Lynx collect pine cones!</h3>
+        <div class="code_game_img">
+            <img src="./image/code_game.png" alt="">
+        </div>
+        <div class="code_game_learnmore">
+            <a href="">Play Game</a>
+        </div>
+
+    </div>
+
+
+    <!-- Exercises and Quizzes -->
+    <!-- i.e eandq  -->
+
+    <div class="eandq_maincontainer">
+        <div class="eandq_subcontainer">
+            <h1>Exercises and Quizzes</h1>
+            <h3>Test your skills!</h3>
+            <div class="eandq_container">
+                <div class="eandq_container_box">
+                    <a class="eandq_container_box_lr" id="eandq_container_box_exercise" href="">Exercises</a>
+                </div>
+                <div class="eandq_container_box">
+                    <a class="eandq_container_box_lr" id="eandq_container_box_quizzes" href="">Quizzes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Web Templates -->
+
+    <div class="web_templates_maincontainer">
+        <h1>Web Templates</h1>
+        <h4>Browse our selection of free responsive HTML Templates</h4>
+        <div class="web_templates_image_contaier">
+            <img src="./image/web_template.jpg" alt="">
+        </div>
+
+        <div class="web_templates_browse_btn">
+            <a href="">Browse Templates</a>
+        </div>
+    </div>
+
+    <!-- kickstart -->
+    <div class="kickstart_maincontainer">
+        <div class="kickstart_subcontainer">
+            <h1>Kickstart your career</h1>
+            <h2>Get certified by completing a course</h2>
+
+            <div class="kickstart_getstarted">
+                <a href="">Get Started</a>
+            </div>
+            <div class="kickstarted_bottomcontainer">
+                <img id="kickstart_arrow" src="./image/curly_arrow.png" alt="">
+                <img id="kickstart_circle" src="./image/w3school_circle.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- How To Section  -->
+
+    <div class="how_to_maincontainer">
+        <div class="how_to_subcontainer">
+            <h1>How To Section</h1>
+            <h4>Code snippets for HTML, CSS and JavaScript</h4>
+            <h5>For example, how to create a slideshow:</h5>
+
+            <div class="codeeditor_examplebox">
+                <div class="codeeditor_navbar">
+                    <div class="codeeditor_examplebox_upnavbar">
+                        <div class="codeeditor_examplebox_upnavbar_color">
+                            <span class="codeeditor_examplebox_upnavbar_redcolor"></span>
+                            <span class="codeeditor_examplebox_upnavbar_yellowcolor"></span>
+                            <span class="codeeditor_examplebox_upnavbar_greencolor"></span>
+                        </div>
+                        <div class="codeeditor_examplebox_upnavbar_info">
+                            <div class="codeeditor_examplebox_upnavbar_infobox">
+                                <p>
+                                    www.w3schools.com/howto/
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <img src="./image/how_to.jpg" alt="">
+            </div>
+
+            <div class="how_to_stand">
+                <div class="stand">
+
+                </div>
+            </div>
+
+            <div class="how_to_learn">
+                <a href="">Learn How To</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Endgame -->
+
+
+    <div class="endgame_maincontainer">
+        <div class="endgame_subcontainer">
+            <!-- up:heading section  -->
+            <div class="endgame_up">
+                <div class="endgame_up_logo">
+                    <img src="./image/golden_w3school.png" alt="">
+                </div>
+                <div class="endgame_up_box">
+                    <a href="">SPACES</a>
+                </div>
+                <div class="endgame_up_box">
+                    <a href="">UPGRADE</a>
+                </div>
+                <div class="endgame_up_box">
+                    <a href="">NEWSLETTER</a>
+                </div>
+                <div class="endgame_up_box">
+                    <a href="">GET CERTIFIED</a>
+                </div>
+                <div class="endgame_up_box">
+                    <a href="">REPORT ERROR</a>
+                </div>
+            </div>
+            <!-- down section  -->
+            <div class="endgame_down">
+                <!-- first colume  -->
+                <div class="endgame_down_tutorial">
+                    <h3>Top Tutorials</h3>
+                    <ul>
+                        <li><a href="">HTML Tutorial</a></li>
+                        <li><a href="">CSS Tutorial</a></li>
+                        <li><a href="">JavaScriptTutorial</a></li>
+                        <li><a href="">How To Tutorial</a></li>
+                        <li><a href="">SQL Tutorial</a></li>
+                        <li><a href="">Python Tutorial</a></li>
+                        <li><a href="">W3.CSS Tutorial</a></li>
+                        <li><a href="">Bootstrap Tutorial</a></li>
+                        <li><a href="">PHP Tutorial</a></li>
+                        <li><a href="">Java Tutorial</a></li>
+                        <li><a href="">C++ Tutorial</a></li>
+                        <li><a href="">jQuery Tutorial</a></li>
+                    </ul>
+                </div>
+                <!-- second solume  -->
+                <div class="endgame_down_reference">
+                    <h3>Top References</h3>
+                    <ul>
+                        <li><a href="">HTML Reference</a></li>
+                        <li><a href="">CSS Reference</a></li>
+                        <li><a href="">JavaScript Reference</a></li>
+                        <li><a href="">SQL Reference</a></li>
+                        <li><a href="">Python Reference</a></li>
+                        <li><a href="">W3.CSS Reference</a></li>
+                        <li><a href="">Bootstrap Reference</a></li>
+                        <li><a href="">PHP Reference</a></li>
+                        <li><a href="">HTML Colors</a></li>
+                        <li><a href="">Java Reference</a></li>
+                        <li><a href="">Angular Reference</a></li>
+                        <li><a href="">jQuery Reference</a></li>
+                    </ul>
+                </div>
+                <!-- third colume  -->
+                <div class="endgame_down_example">
+                    <h3>Top Examples</h3>
+                    <ul>
+                        <li><a href="">HTML Examples</a></li>
+                        <li><a href="">CSS Examples</a></li>
+                        <li><a href="">JavaScript Examples</a></li>
+                        <li><a href="">How To Examples</a></li>
+                        <li><a href="">SQL Examples</a></li>
+                        <li><a href="">Python Examples</a></li>
+                        <li><a href="">W3.CSS Examples</a></li>
+                        <li><a href="">Bootstrap Examples</a></li>
+                        <li><a href="">PHP Examples</a></li>
+                        <li><a href="">Java Examples</a></li>
+                        <li><a href="">XML Examples</a></li>
+                        <li><a href="">jQueryExamples</a></li>
+                    </ul>
+                </div>
+                <!-- fourth colume  -->
+                <div class="endgame_down_certified">
+                    <h3>Get Certified</h3>
+                    <ul>
+                        <li><a href="">HTML Certificate</a></li>
+                        <li><a href="">CSS Certificate</a></li>
+                        <li><a href="">JavaScript Certificate</a></li>
+                        <li><a href="">Front End Certificate</a></li>
+                        <li><a href="">SQL Certificate</a></li>
+                        <li><a href="">Python Certificate</a></li>
+                        <li><a href="">PHP Certificate</a></li>
+                        <li><a href="">jquery Certificate</a></li>
+                        <li><a href="">Java Certificate</a></li>
+                        <li><a href="">C++ Certificate</a></li>
+                        <li><a href="">C# Certificate</a></li>
+                        <li><a href="">XML Certificate</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="endgame_social_media">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-discord"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="">FORUM</a>
+                <a href="">ABOUT</a>
+            </div>
+
+            <div class="endgame_lastline">
+                <li>W3Schools is optimized for learning and training. Examples might be simplified to improve reading and
+                learning.
+                Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full
+                correctness
+                of all content. While using W3Schools, you agree to have read and accepted our <a href=""> terms of use</a> ,<a href=""> cookie and privacy policy</a> .</li>
+                <li><a href="">Copyright 1999-2023</a> by Refsnes Data. All Rights Reserved. <a href="">W3Schools is Powered by W3.CSS</a>.</li>
+                
+            </div>
+            <div class="endgame_landing">
+                <img src="./image/bottommost_landing.png" alt="">
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

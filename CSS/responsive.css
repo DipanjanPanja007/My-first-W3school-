@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1315px) {
+    .job {
+        display: none;
+    }
+}
+
+@media (max-width: 1215px) {
+    .space {
+        display: none;
+    }
+}
+
+@media (max-width: 1095px) {
+    .certificate {
+        display: none;
+    }
+}
+
+@media (max-width: 952px) {
+    #menu_certificate {
+        display: none;
+    }
+}
+
+@media (max-width: 835px) {
+    #search_bar {
+        display: none;
+    }
+
+    .box {
+        border: none;
+    }
+}
+
+@media (max-width: 705px) {
+    #menu_tutorial {
+        display: none;
+    }
+
+    #menu_exercise {
+        display: none;
+    }
+
+    #menu_service {
+        display: none;
+    }
+
+    #menubar {
+        display: block;
+        display: flex;
+    }
+
+    #search_bar {
+        display: block;
+    }
+
+    .box {
+        border: block;
+    }
+}
+
+
+@media (max-width: 585px) {
+
+    #search_bar {
+        display: none;
+    }
+
+    .box {
+        border: none;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .sign_up {
+        display: none;
+    }
+
+    .log_in {
+        padding-left: 24px;
+    }
+}
+
+
+@media (max-width: 685px) {
+    /* .mobile_menu{
+        display: block;
+    } */
+
+
+}
+
+@media (max-width: 1075px) {
+    #astronaut {
+        display: none;
+    }
+}
+
+@media (max-width: 775px) {
+    #intro_box h1 {
+        font-size: 60px;
+    }
+
+    #intro_main_box {
+        padding: 190px 0px 90px 0px;
+    }
+
+    #intro_box h2 {
+        color: rgb(239, 243, 169);
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 562px) {
+    #intro_box h1 {
+        font-size: 50px;
+    }
+
+    #intro_main_box {
+        padding: 190px 0px 103px 0px;
+    }
+
+    #intro_box h2 {
+        color: rgb(239, 243, 169);
+
+        font-size: 19px;
+
+    }
+}
+
+@media (max-width: 462px) {
+
+    #intro_main_box {
+        padding: 190px 0px 80px 0px;
+    }
+}
+
+@media (max-width: 390px) {
+    .intro {
+        height: 681px;
+
+    }    
+}
+
+
+/* INTRODUCTION PART  */
+@media  (max-width: 993px){
+    .introduction_box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .intro_container_outerexample{
+        width: 90%;
+    }
+    .introduction_container_example{
+        width: auto;
+    }
+    .introduction_example{
+        width: auto;
+    }
+
+    .intro_other_big_subcontainer{
+        flex-direction: column;
+    }
+    .intro_other_big{
+        max-width: none;
+        width: 100%;
+    }
+
+    .intro_other_medium_subcontainer{
+        flex-direction: column;
+    }
+}
+
+@media  (max-width: 600px){
+    
+    .intro_container_outerexample{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .introduction_heading1{
+        font-size: 60px;
+    }
+    .introduction_heading1_js{
+        font-size: 60px;
+    }
+
+    
+}
+
+
+
+
+
+@media (min-width:1401px){
+    .intro_other_big{
+        max-width: 712px;
+        width: 49.9%;
+    }
+    .intro_other_medium_content{
+        max-width: 712px;
+        width: 49.9%;
+    }
+    .intro_small_box{
+        width: 1412px;
+        margin: auto;
+    }    
+}
+@media  (max-width: 993px){
+
+    .intro_small_box{
+        flex-wrap: wrap;
+    }
+
+    .intro_small_container{
+        width: 49.9999%;
+    }
+}
+@media  (max-width: 602px){
+
+    .intro_small_container{
+        width: 100%;
+    }
+    .codeeditor_tryfrontend a{
+        display: inline-block;
+        width: 100%;
+    }
+    .codeeditor_trybackend a{
+        display: inline-block;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
