@@ -626,7 +626,7 @@ and for the same in crome, opera, safari use the following:
 }
 
 #intro_search_box input:focus {
-    border: none;
+    outline: none;
 }
 
 #intro_search_btn {
